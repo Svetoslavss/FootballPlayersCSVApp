@@ -13,7 +13,7 @@ public class JdbcRepository {
 
     public void create() {
 
-        String teamsSLQ = "CREATE TABLE IF NOT EXISTS teams ("
+        String teamsSQL = "CREATE TABLE IF NOT EXISTS teams ("
                 + "teamId SERIAL PRIMARY KEY, "
                 + "managerName VARCHAR(255) NOT NULL, "
                 + "team_group VARCHAR(255) NOT NULL"
